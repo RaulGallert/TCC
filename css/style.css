@@ -20,6 +20,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.cl1{
+	left: 75px;
+}
+
+.cl2{
+	left: 250px;
+}
+
 h1,
 h2,
 h3,
