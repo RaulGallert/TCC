@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>Boto | Photography HTML Template</title>
+	<title>Tour IFPR</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Boto Photo Studio HTML Template">
 	<meta name="keywords" content="photo, html">
@@ -67,13 +67,15 @@
 	<div class="gallery__page">
 		<div class="gallery__warp">
 			<div class="row">
-				<div class="cl1 col-md-" id="sala" style="width: 600px; height: 400px;">
+				<div class="li1 cl1 col-md-" id="sala" style="width: 600px; height: 400px;">
 				</div>
-				<div class="cl2 col-md-" id="biblioteca" style="width: 600px; height: 400px;">
+				<div class="li1 cl2 col-md-" id="biblioteca" style="width: 600px; height: 400px;">
 				</div>
-				<div class="cl1 col-md-" id="" style="width: 600px; height: 400px;">
+				<div class="li2 cl1 col-md-" id="convivencia" style="width: 600px; height: 400px;">
 				</div>
-				<div class="cl2 col-md-" id="panorama" style="width: 600px; height: 400px;">
+				<div class="li2 cl2 col-md-" id="labifn" style="width: 600px; height: 400px;">
+				</div>
+				<div class="li3 cl3 col-md-" id="sp" style="width: 600px; height: 400px;">
 				</div>
 				</div>
 			</div>
@@ -122,11 +124,13 @@
 	<script>
 	pannellum.viewer('sala', {
 		"type": "equirectangular",
-		"panorama": "../img/gallery/sala.jpg"
+		"panorama": "../img/gallery/sala.jpg",
+		"autoLoad": true
 	});
 	pannellum.viewer('biblioteca',{
 		"default":{
-			"firstScene": "bi1"
+			"firstScene": "bi1",
+			"autoLoad": true
 		},
 		"scenes":{
 			"bi1":{
@@ -151,13 +155,28 @@
 						"type":"scene" ,
 						"sceneId": "bi1"
 					}]
-			}
+			},
+			
 		}
 		
 	})
-	pannellum.viewer('biblioteca2',{
+
+	pannellum.viewer('convivencia',{
 		"type": "equirectangular",
-		"panorama": "../img/gallery/bi2.jpg",
+		"panorama": "../img/gallery/cozinha.jpg",
+		"autoLoad": true
+	})
+
+	pannellum.viewer('labifn',{
+		"type": "equirectangular",
+		"panorama": "../img/gallery/lab_inf.jpg",
+		"autoLoad": true
+	})
+
+	pannellum.viewer('sp',{
+		"type": "equirectangular",
+		"panorama": "../img/gallery/sp.jpg",
+		"autoLoad": true
 	})
 	</script>
 	</body>

@@ -28,6 +28,20 @@ body {
 	left: 250px;
 }
 
+.cl3{
+	left: 450px;
+}
+
+.li2{
+	position: relative;
+	top: 30px;
+}
+
+.li3{
+	position: relative;
+	top: 60px;
+}
+
 h1,
 h2,
 h3,
@@ -608,7 +622,7 @@ ol {
 }
 
 .slide-item img {
-	height: 570px;
+	height: 450px;
 	padding: 65px 0;
 	-webkit-transition: 0.4s;
 	-o-transition: 0.4s;
