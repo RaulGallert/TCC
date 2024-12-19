@@ -70,6 +70,9 @@
 	
 						<h2>Sala de Convivencia</h2>
 						<div class="tour" id="convivencia" style="width: 600px; height: 400px;"></div>
+
+						<h2>Seção Pedagógica</h2>
+						<div class="tour" id="sp" style="width: 600px; height: 400px;"></div>
 					</div>	
 				</main>
 				
@@ -80,12 +83,10 @@
 	
 						<h2>Laboratório de Informática</h2>
 						<div class="tour" id="labifn" style="width: 600px; height: 400px;"></div>
+
+						<h2>Estudio de Gravação</h2>
+						<div class="tour" id="grava" style="width: 600px; height: 400px;"></div>
 					</div>
-				</main>
-				
-				<main class="centro">
-					<h2>Seção pedagógica e de assunto Estudantis</h2>
-					<div class="tour" id="sp" style="width: 600px; height: 400px;"></div>
 				</main>
 				
 				
@@ -188,6 +189,12 @@
 	pannellum.viewer('sp',{
 		"type": "equirectangular",
 		"panorama": "img/gallery/sp.jpg",
+		"autoLoad": true
+	})
+
+	pannellum.viewer('grava',{
+		"type": "equirectangular",
+		"panorama": "img/gallery/estudio.jpg",
 		"autoLoad": true
 	})
 	</script>

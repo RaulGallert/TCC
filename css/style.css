@@ -20,11 +20,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-main.centro{
-	position: relative;
-	top: 10px;
-}
-
 div.row{
 	position: relative;
 }
@@ -50,15 +45,6 @@ main.direita div.tour{
 div.container2 h2{
 	top: 10px;
 	left: 250px;
-}
-
-main.centro div.tour{
-	left: 450px
-}
-
-main.centro h2{
-	top: 10px;
-	left: 375px;
 }
 
 h1,
