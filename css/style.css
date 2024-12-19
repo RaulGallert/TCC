@@ -25,12 +25,16 @@ main.centro{
 	top: 10px;
 }
 
+div.row{
+	position: relative;
+}
+
 div.row h2{
 	position: relative;
 	text-align: center
 }
 
-.esquerda div.tour{
+main.esquerda div.tour{
 	left: 65px;
 }
 
@@ -39,7 +43,7 @@ div.container1 h2{
 	left: 65px;
 }
 
-.direita div.tour{
+main.direita div.tour{
 	left: 250px;
 }
 
@@ -48,11 +52,11 @@ div.container2 h2{
 	left: 250px;
 }
 
-.centro div.tour{
+main.centro div.tour{
 	left: 450px
 }
 
-.centro h2{
+main.centro h2{
 	top: 10px;
 	left: 375px;
 }
