@@ -20,26 +20,41 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.cl1{
-	left: 75px;
+main.centro{
+	position: relative;
+	top: 10px;
 }
 
-.cl2{
+div.row h2{
+	position: relative;
+	text-align: center
+}
+
+.esquerda div.tour{
+	left: 65px;
+}
+
+div.container1 h2{
+	top: 10px;
+	left: 65px;
+}
+
+.direita div.tour{
 	left: 250px;
 }
 
-.cl3{
-	left: 450px;
+div.container2 h2{
+	top: 10px;
+	left: 250px;
 }
 
-.li2{
-	position: relative;
-	top: 30px;
+.centro div.tour{
+	left: 450px
 }
 
-.li3{
-	position: relative;
-	top: 60px;
+.centro h2{
+	top: 10px;
+	left: 375px;
 }
 
 h1,
