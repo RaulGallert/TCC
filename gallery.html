@@ -84,8 +84,6 @@
 						<h2>Laboratório de Informática</h2>
 						<div class="tour" id="labifn" style="width: 600px; height: 400px;"></div>
 
-						<h2>Estudio de Gravação</h2>
-						<div class="tour" id="grava" style="width: 600px; height: 400px;"></div>
 					</div>
 				</main>
 				
@@ -138,12 +136,18 @@
 	pannellum.viewer('sala', {
 		"type": "equirectangular",
 		"panorama": "img/gallery/sala.jpg",
-		"autoLoad": true
+		"autoLoad": true,
+		"minPitch" : 0,
+		"maxPitch" : 0,
+		"maxHfov": 80
 	});
 	pannellum.viewer('biblioteca',{
 		"default":{
 			"firstScene": "bi1",
-			"autoLoad": true
+			"autoLoad": true,
+			"minPitch" : 0,
+			"maxPitch" : 0,
+			"maxHfov": 80
 		},
 		"scenes":{
 			"bi1":{
@@ -177,25 +181,28 @@
 	pannellum.viewer('convivencia',{
 		"type": "equirectangular",
 		"panorama": "img/gallery/cozinha.jpg",
-		"autoLoad": true
+		"autoLoad": true,
+		"minPitch" : 0,
+		"maxPitch" : 0,
+		"maxHfov": 80
 	})
 
 	pannellum.viewer('labifn',{
 		"type": "equirectangular",
 		"panorama": "img/gallery/lab_inf.jpg",
-		"autoLoad": true
+		"autoLoad": true,
+		"minPitch" : 0,
+		"maxPitch" : 0,
+		"maxHfov": 80
 	})
 
 	pannellum.viewer('sp',{
 		"type": "equirectangular",
 		"panorama": "img/gallery/sp.jpg",
-		"autoLoad": true
-	})
-
-	pannellum.viewer('grava',{
-		"type": "equirectangular",
-		"panorama": "img/gallery/estudio.jpg",
-		"autoLoad": true
+		"autoLoad": true,
+		"minPitch" : 0,
+		"maxPitch" : 0,
+		"maxHfov": 80
 	})
 	</script>
 	</body>
